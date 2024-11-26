@@ -1,0 +1,117 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Servicios */
+.servicios {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.servicio-item {
+    display: inline-block;
+    width: 45%;
+    margin: 20px 2.5%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.servicio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.servicio-item h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.servicio-item p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Llamada a la acción */
+.cta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cta .btn {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta .btn:hover {
+    background-color: #555;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
