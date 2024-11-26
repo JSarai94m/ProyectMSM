@@ -1,0 +1,138 @@
+/* Estilos generales  */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Barra de navegación */
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #6c4a4a;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navbar ul li a:hover {
+    color: #f8d7b9;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #6c4a4a;
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Estilos para la sección de tipos de café */
+.coffee-types {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.coffee-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.coffee-item {
+    max-width: 300px;
+    background: #fefefe;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+}
+
+.coffee-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #6c4a4a;
+}
+
+.coffee-item h3 {
+    color: #6c4a4a;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.coffee-item p {
+    color: #555;
+    margin-top: 0.5rem;
+    line-height: 1.6;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #6c4a4a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Media query para celular */
+@media (max-width: 768px) {
+    .coffee-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .coffee-item {
+        max-width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
